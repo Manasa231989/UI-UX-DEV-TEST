@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-component .title {
+  margin: 10px 0px 0px 20px;
+}
+
+.card {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 290px;
+  border-radius: 1px;
+}
+
+.card:hover {
+  box-shadow: 0px 3px 18px rgba(0,0,0,0.6);
+}
+
+.card .image{
+  width: 100%;
+}
+
+.container {
+  margin: -10px 0px 0px 16px;
+}
+
+.container .heading{
+  color: #0F5EF0;
+  font-size: 15px;
+  font-weight: 600 !important;
+  font-family: 'Source Sans Pro';
+}
+
+.container .sub-heading{
+  color: #7A8594;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro';
+  margin-top: -8PX;
+}
+
+.container .text{
+  color: #7A8594;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro';
+  padding-bottom: 14px;
+  margin-top: -2px;
+}
+
+.formElements {
+  margin-top: 30px;
+}
+
+.formElements .title {
+  margin: 10px 0px 0px 20px;
+}
+
+form{
+  margin: 40px 0px 0px 40px;
+}
+
+.form-group {
+  margin-top: 22px;
+}
+
+.form-group label{
+  font-family: 'Source Sans Pro';
+  font-weight: 400 !important;
+  font-size: 14px;
+  color: #1A1A1A;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #1a1a1b85;
+}
+
+input:placeholder {
+  font-family: 'Source Sans Pro';
+  font-weight: 400 !important;
+  font-size: 14px;
+  color: #737373;
+}
+
+input:focus{
+  outline: 1px solid #1a1a1b85;
+}
+
+.submit {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.submit button {
+  background-color: #0063E6;
+  font-family: 'Source Sans Pro';
+  font-weight: 600 !important;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  padding: 9px 146px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit button:hover {
+  background-color: #F0F6FF;
+}
+
+.tableFunction{
+  margin-top: 40px;
+}
+
+.tableFunction .title{
+  margin: 10px 0px 0px 20px;
+}
+
+.custom-table{
+  margin: 40px;
+}
+
+.table{
+  border: 1px solid rgba(127, 127, 129, 0.6);
+  border-radius: 3px;
+  width: 450px;
+}
+
+.table thead {
+  font-weight: 'Source Sans pro';
+  font-weight: 700;
+  font-size: 15px;
+  color: #666666;
+}
+
+table .category {
+  width: 150px;
+}
+
+table th, table td {
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+table thead tr {
+  background-color: #F7F7F7;
+}
+
+table:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:last-child {
+  background-color: #F7F7F7;
+}
+
+table tbody tr {
+  padding-top: 15px;
+  padding-bottom: 17px;
+}
+
+table tbody tr:hover {
+  background-color: rgba(220, 239, 241, 0.4);
+}
+
+table tbody td{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Source Sans pro';
+  color: #666666;
+}

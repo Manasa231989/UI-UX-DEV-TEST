@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" />
+  <title>UI/UX DEV TEST</title>
+</head>
+
+<body>
+  <!-- Card Component -->
+  <section class="card-component">
+    <h1 class="title">Part-1 Card Component</h1>
+    <div class="card">
+      <img src="assets/img.png" alt="dog_image" class="image" />
+      <div class="container">
+        <h4 class="heading">Beach Day</h4>
+        <h4 class="sub-heading">RUFUS THE DOG</h4>
+        <h5 class="text">Modified 02/28/2019 by bfrost</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Elements -->
+  <section class="formElements">
+    <h1 class="title">Part-2 Form Elements</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label><br/>
+        <input type="text" placeholder="Enter Name" 
+        id="name" name="name" autocomplete="off"/>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label><br/>
+        <input type="email" placeholder="Enter Email" 
+        id="email" name="email" autocomplete="off"/>
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label><br/>
+        <input type="tel" placeholder="Enter Phone Number" 
+        id="phoneNumber" name="phoneNumber" autocomplete="off"/>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label><br/>
+        <input type="password" placeholder="Enter Password" 
+        id="password" name="password" autocomplete="off"/>
+      </div>
+      <div class="form-group">
+        <label for="confirm_password">Confirm Password</label><br/>
+        <input type="password" placeholder="Confirm Password" 
+        id="confirm_password" name="confirm_password" autocomplete="off"/>
+      </div>
+      <div class="submit">
+        <button type="submit" id="submit">SAVE</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Table Functions -->
+  <section class="tableFunction">
+    <h1 class="title">Part-3 Table Functions</h1>
+    <div class="custom-table">
+      <table class="table" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Product Name &#x25be;</th>
+            <th>Price &#x25be;</th>
+            <th class="category">Category &#x25be;</th>
+          </tr>
+        </thead>
+        <tbody id="data">
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
